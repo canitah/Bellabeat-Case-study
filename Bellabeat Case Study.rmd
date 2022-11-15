@@ -1,0 +1,62 @@
+---
+title: "Bellabeat Case Study"
+author: "Qanitah Nizam"
+date: "2022-10-28"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Importing Data sets
+```{r}
+daily_activity <- read.csv("dailyActivity_merged.csv")
+
+sleep_day <- read.csv("sleepDay_merged.csv")
+
+weight_log <- read.csv("weightLogInfo_merged.csv")
+```
+
+## Examining Data
+```{r}
+dim(daily_activity)
+dim(sleep_day)
+dim(weight_log)
+```
+
+## Checking for Null & Duplicate values
+```{r}
+sum(is.na(daily_activity))
+sum(is.na(sleep_day))
+sum(is.na(weight_log))
+colSums(is.na(weight_log))
+
+# dropping column with null values
+weight_log <- weight_log[-5]
+
+weight_log
+
+# removing duplicates
+sum(duplicated(daily_activity))
+
+sum(duplicated(sleep_day))
+sleep_day <- sleep_day[!duplicated(sleep_day), ]
+
+sum(duplicated(weight_log))
+```
+
+## Extracting days from date
+```{r}
+daily_activity <- daily_activity %>% 
+  mutate( Weekday = weekdays(as.Date(ActivityDate, "%m/%d/%Y")))
+str(daily_activity)
+```
+
+## Unique users
+```{r}
+n_distinct(daily_activity$Id)
+n_distinct(sleep_day$Id)
+n_distinct(weight_log$Id)
+```
+
