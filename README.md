@@ -29,6 +29,27 @@ To grow and become a larger player in smart device industry.
 
 ## Useful Insights
 
+### Sleep Analysis
+![image](https://github.com/canitah/Bellabeat-Case-study/blob/main/Insights/Sleep%20Analysis.PNG?raw=true)
+![image](https://github.com/canitah/Bellabeat-Case-study/blob/main/Insights/Awake%20Time.PNG?raw=true)
+![image](https://github.com/canitah/Bellabeat-Case-study/blob/main/Insights/Avg%20Sleep%20time%20weekly.PNG?raw=true)
+
+### Steps Analysis
+![image](https://github.com/canitah/Bellabeat-Case-study/blob/main/Insights/Steps.PNG?raw=true)
+![image](https://github.com/canitah/Bellabeat-Case-study/blob/main/Insights/hourlySteps.PNG?raw=true)
+
+### People are Out & About on Saturday
+![image](https://github.com/canitah/Bellabeat-Case-study/blob/main/Insights/OutnAbout.PNG?raw=true)
+
+### Percent of Active Minutes throughout the day
+![image](https://github.com/canitah/Bellabeat-Case-study/blob/main/Insights/PercentofActMins.PNG?raw=true)
+
+### Variation of Weight throughout the Month
+![image](https://github.com/canitah/Bellabeat-Case-study/blob/main/Insights/Weight%20Variation.PNG?raw=true)
+
+### Active Min Vs. Calories Burn
+![image](https://github.com/canitah/Bellabeat-Case-study/blob/main/Insights/VeryActMin%20vs%20Calories.PNG?raw=true)
+
 
 
 
