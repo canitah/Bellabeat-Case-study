@@ -20,6 +20,9 @@ To grow and become a larger player in smart device industry.
 - Data Source: 33 participants FitBit Fitness Tracker Data from Mobius: https://www.kaggle.com/arashnic/fitbit
 - The dataset has 18 CSV.
 - Only 30 user data is available. The central limit theorem general rule of n≥30 applies.
+- The data has limitations: 
+           a) Outdated
+           b) very few records
 
 ## Data Cleaning
 1. Loaded Dataset to R
